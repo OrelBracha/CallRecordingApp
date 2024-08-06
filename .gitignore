@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+
+# User-specific files
+.vs/
+*.user
+*.suo
+
+# Log files
+*.log
+
+# Dependency directories
+node_modules/
+packages/
+
+# Environment files
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.swp

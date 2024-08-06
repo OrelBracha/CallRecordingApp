@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallRecordingService", "CallRecordingService\CallRecordingService.csproj", "{62A1B8F7-D168-4148-8F83-83A31CA68E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallRecordingWindowsService", "CallRecordingWindowsService\CallRecordingWindowsService.csproj", "{E8F2CB6B-ED4C-449C-B3F9-BFAF0D0D75FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallRecordingClient", "CallRecordingClient\CallRecordingClient.csproj", "{3112F61D-9A00-4FF3-A446-8B57CFBBD95E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62A1B8F7-D168-4148-8F83-83A31CA68E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A1B8F7-D168-4148-8F83-83A31CA68E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A1B8F7-D168-4148-8F83-83A31CA68E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A1B8F7-D168-4148-8F83-83A31CA68E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F2CB6B-ED4C-449C-B3F9-BFAF0D0D75FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F2CB6B-ED4C-449C-B3F9-BFAF0D0D75FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F2CB6B-ED4C-449C-B3F9-BFAF0D0D75FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F2CB6B-ED4C-449C-B3F9-BFAF0D0D75FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3112F61D-9A00-4FF3-A446-8B57CFBBD95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3112F61D-9A00-4FF3-A446-8B57CFBBD95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3112F61D-9A00-4FF3-A446-8B57CFBBD95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3112F61D-9A00-4FF3-A446-8B57CFBBD95E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D94A4D6C-3E3A-42A4-BC73-6672C9D6288D}
+	EndGlobalSection
+EndGlobal

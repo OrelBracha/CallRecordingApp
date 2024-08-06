@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="761a5f69-f7fb-4f61-ac72-9cb352691f05" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/CallRecordingService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CallRecordingService.xsd" MetadataType="Schema" ID="a121273a-7f10-4223-8588-f5afc557db88" SourceId="1" SourceUrl="http://localhost:8000/CallRecordingService?xsd=xsd0" />
+    <MetadataFile FileName="CallRecordingService1.xsd" MetadataType="Schema" ID="5266e008-1b8c-4d2e-9acb-76b1d7d415cf" SourceId="1" SourceUrl="http://localhost:8000/CallRecordingService?xsd=xsd1" />
+    <MetadataFile FileName="CallRecordingService2.xsd" MetadataType="Schema" ID="e99a9de3-f6d1-469c-9ab3-435ce12ff620" SourceId="1" SourceUrl="http://localhost:8000/CallRecordingService?xsd=xsd2" />
+    <MetadataFile FileName="CallRecordingService.wsdl" MetadataType="Wsdl" ID="0526db45-662f-430f-9648-88330c305523" SourceId="1" SourceUrl="http://localhost:8000/CallRecordingService?wsdl" />
+    <MetadataFile FileName="CallRecordingService.disco" MetadataType="Disco" ID="3a46aa64-e78e-4513-b6f8-812f59576c4b" SourceId="1" SourceUrl="http://localhost:8000/CallRecordingService?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
